@@ -46,10 +46,26 @@ Make sure you have the following installed on your system:
      ```bash
      npm run dev
      
-  This will start the development server on "http://localhost:5173/" and open the project in your default web browser.
+  This will start the development server on `http://localhost:5173/` and open the project in your default web browser.
 
 
+## Code 💻
+
+Here is the main code:
+
+```jsx
+import { Carousel } from "./components/carousel-1/Carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
+function App() {
+  return <Carousel />;
+}
+
+export default App;
+
+```
 ---
+
 
 *Crafted with ❤️ by Amir Shehzad Shah*
 
