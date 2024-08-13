@@ -99,7 +99,7 @@ export const Carousel = () => {
         onChange={handleOnChange}
       >
         {slides.map((slide) => (
-          <div>{slide.page}</div>
+          <div key={slide.icon}>{slide.page}</div>
         ))}
       </ReactCarousel>
     </>

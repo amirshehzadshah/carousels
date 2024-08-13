@@ -15,6 +15,9 @@ body {
 .swiper {
   padding-top: 50px;
   padding-bottom: 80px;
+  box-sizing: border-box; /* Ensures padding doesn't cause overflow */
+  height: 600px; /* Adjust height to prevent black space */
+  width: 600px; /* Adjust width to prevent black space */
 }
 
 .swiper .swiper-slide {
@@ -22,6 +25,5 @@ body {
   background-size: cover;
   width: 300px;
   height: 300px;
-  -webkit-box-reflect: below 1px
-    linear-gradient(transparent, transparent, #0006);
+  -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0006);
 }

@@ -7,14 +7,13 @@ body {
   box-sizing: border-box;
 }
 
-#root {
-  margin: 50% 0;
-}
-
 body {
   margin: 0;
-  padding-left: 10px;
   background: #eaedf0;
+  border: 2px solid red;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
 }
 
 img {

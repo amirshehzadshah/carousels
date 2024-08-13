@@ -46,8 +46,8 @@ export const Carousel = () => {
       <div className="wrapper">
         <div className="splide">
           <Splide options={options} aria-label="My Favorite Images">
-            {slides.map((slide) => (
-              <SplideSlide>
+            {slides.map((slide, index) => (
+              <SplideSlide key={index}>
                 <div className="slide">
                   <div className="card">
                     <span className="material-symbols-outlined">
